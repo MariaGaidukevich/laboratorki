@@ -35,15 +35,15 @@ public class Calculator {
         return x * y;
     }
 
-    public int Div(int x, int y) {
-        return x / y;
+    public double Div(int x, int y) {
+        return x / (double)y;
     }
 
     public double Div(double x, double y) {
         return x / y;
     }
 
-    public long Div(long x, long y) {
-        return x / y;
+    public double Div(long x, long y) {
+        return x / (double)y;
     }
 }

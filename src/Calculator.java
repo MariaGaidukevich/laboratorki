@@ -1,49 +1,49 @@
 public class Calculator {
-    public int Sum(int x, int y) {
+    public int sum(int x, int y) {
         return x + y;
     }
 
-    public double Sum(double x, double y) {
+    public double sum(double x, double y) {
         return x + y;
     }
 
-    public long Sum(long x, long y) {
+    public long sum(long x, long y) {
         return x + y;
     }
 
-    public int Sub(int x, int y) {
+    public int sub(int x, int y) {
         return x - y;
     }
 
-    public double Sub(double x, double y) {
+    public double sub(double x, double y) {
         return x - y;
     }
 
-    public long Sub(long x, long y) {
+    public long sub(long x, long y) {
         return x - y;
     }
 
-    public int Mul(int x, int y) {
+    public int mul(int x, int y) {
         return x * y;
     }
 
-    public double Mul(double x, double y) {
+    public double mul(double x, double y) {
         return x * y;
     }
 
-    public long Mul(long x, long y) {
+    public long mul(long x, long y) {
         return x * y;
     }
 
-    public double Div(int x, int y) {
+    public double div(int x, int y) {
         return x / (double)y;
     }
 
-    public double Div(double x, double y) {
+    public double div(double x, double y) {
         return x / y;
     }
 
-    public double Div(long x, long y) {
+    public double div(long x, long y) {
         return x / (double)y;
     }
 }

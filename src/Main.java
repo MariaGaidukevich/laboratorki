@@ -3,6 +3,35 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Laboratorki");
+
+        //Лабораторная 3.1
+        Study study = new Study("Изучение Java-это просто!");
+        System.out.println(study.printCourse());
+
+        //Лабораторная 3.2
+        Car bmw = new Car("x5", "black", 2.1);
+        Car renault = new Car("duster", "mint", 1.5);
+        bmw.carInfo();
+        renault.carInfo();
+        //проверяем работу другого конструктора (только цвет)
+        Car ferrari = new Car("red");
+        ferrari.carInfo();
+
+        //Лабораторная 3.3
+        House dacha = new House();
+        dacha.setAll(2, 1992, "dacha");
+        dacha.getAll();
+        dacha.howOld();
+        House school = new House();
+        school.setAll(4, 1887, "Gymnasium");
+        school.getAll();
+        school.howOld();
+
+        //Лабораторная 3.4
+        Tree lemonTree=new Tree(10,"Lemon");
+        Tree sequoia=new Tree(10,true,"Sequoia");
+        Tree maple=new Tree();
+
         //Задание 1
         System.out.println("я");
         System.out.println("хорошо");
